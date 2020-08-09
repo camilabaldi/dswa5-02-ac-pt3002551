@@ -1,7 +1,7 @@
 var contatos = [
- {_id: 1, nome: 'Fabio Teixeira', email: 'fabio.teixeira@ifsp.edu.br'},
- {_id: 2, nome: 'Fabiano Teixeira', email: 'fabiano.teixeira@ifsp.edu.br'},
- {_id: 3, nome: 'Melissa Teixeira', email: 'melissa.teixeira@ifsp.edu.br'} 
+	{_id: 1, nome: 'Adalberto Rossi', email: 'adalberto_rossi@ifsp.edu.br'},
+	{_id: 2, nome: 'Rogerio Aparecido', email: 'rogerim@ifsp.edu.br'},
+	{_id: 5, nome: 'Testando da Silva', email: 'testando.silva@ifsp.edu.br'} 
 ]
 
 module.exports = function(){
