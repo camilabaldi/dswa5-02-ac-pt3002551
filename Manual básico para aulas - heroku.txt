@@ -1,0 +1,32 @@
+1- Clonar aplicação exemplo na pasta (BASH: git clone <link>)
+
+1.1 - Excluir a pasta .git que veio com o clone
+
+2- (cmd) heroku login [vai abrir uma guia para login]
+
+3- (cmd) heroku create dswa5-09-ac-pt3002551 [copiar o 2° link]
+https://git.heroku.com/dswa5-09-ac-pt3002551.git
+
+4- ver no site do Heroku se a aplicação foi criada
+
+4- (cmd) git init 
+
+5- (cmd) git remote add heroku <link copiado antes>
+
+6- (cmd) fazer o processo de commit 
+
+7- (cmd) git push heroku master
+
+8-  (cmd) heroku local web [verificar a porta que esta rodando a aplicação]
+
+9- TROCAR  A PORTA NO ARQ. config/express.js 
+	- TESTE: app.set('port', 3000);
+	- REAL: app.set('port', process.env.PORT);
+
+-------------------------------
+
+Erro no heroku local web --> app/routes (prestas atenção nos gets e post pra ver se não há um ";" entre eles) 
+
+mongodb+srv://dswa5:<password>@cluster0.fhdo6.mongodb.net/test
+
+git rm --cached dswa5-08-ac-pt3002551
